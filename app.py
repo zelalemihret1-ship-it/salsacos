@@ -18,8 +18,8 @@ log = logging.getLogger("salsacos")
 
 app = Flask(__name__, static_folder=None)
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
-CHANNEL_ID = os.getenv("CHANNEL_ID", "").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8948007276:AAGsoN_WgJw8DrjpO6TlauHAW2fAXzRbfQU").strip()
+CHANNEL_ID = os.getenv("CHANNEL_ID", "-1004438473249").strip()
 WEBHOOK_SECRET = os.getenv("WEBHOOK_SECRET", "").strip()
 WEBHOOK_URL = os.getenv("WEBHOOK_URL", "").strip().rstrip("/")
 PORT = int(os.getenv("PORT", "10000"))
