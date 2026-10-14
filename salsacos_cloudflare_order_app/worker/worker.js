@@ -1,4 +1,3 @@
-```javascript
 const PRODUCTS = {
   tacos: { name: "Tacos", price: 250 },
   special_tacos: { name: "Special Tacos", price: 300 },
@@ -487,4 +486,3 @@ function constantTimeEqual(a, b) {
 
   return diff === 0;
 }
-```
