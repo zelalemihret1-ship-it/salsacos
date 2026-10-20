@@ -1,8 +1,0 @@
-{
-  "name": "salsacos-render-order-app",
-  "version": "1.0.0",
-  "private": true,
-  "type": "module",
-  "engines": { "node": ">=20" },
-  "scripts": { "start": "node server.js" }
-}
